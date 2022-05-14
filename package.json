@@ -1,0 +1,20 @@
+{
+  "name": "my-express-server",
+  "version": "1.0.0",
+  "description": "my first express server",
+  "main": "hello.js",
+  "scripts": {
+    "watch":"nodemon npm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priyansh Malik",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.0.4",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "pstree.remy": "^1.1.0"
+  }
+}
